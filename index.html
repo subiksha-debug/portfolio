@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Dev — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">AD<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-grid-lines"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Full-Stack Developer · Chennai, India</p>
+      <h1 class="hero-title reveal">
+        <span class="hero-line">Building</span>
+        <span class="hero-line accent-line">digital things</span>
+        <span class="hero-line">that matter.</span>
+      </h1>
+      <p class="hero-sub reveal">I turn ideas into fast, beautiful, accessible web experiences. Currently open to new opportunities.</p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Let's Talk</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint reveal">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-counter">
+      <div class="counter-item"><span class="counter-num" data-target="15">0</span><span class="counter-label">Projects</span></div>
+      <div class="counter-item"><span class="counter-num" data-target="3">0</span><span class="counter-label">Years Exp.</span></div>
+      <div class="counter-item"><span class="counter-num" data-target="8">0</span><span class="counter-label">Happy Clients</span></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label reveal">— 01 / About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title reveal">A developer who gives a damn about the details.</h2>
+          <p class="reveal">I'm Alex, a full-stack developer passionate about crafting experiences that are fast, inclusive, and genuinely delightful. I thrive at the intersection of clean code and thoughtful design.</p>
+          <p class="reveal">When I'm not coding, you'll find me exploring open-source projects, tinkering with hardware, or making a very average cup of filter coffee.</p>
+          <a href="assets/resume.pdf" class="btn-outline reveal" download>Download Resume ↓</a>
+        </div>
+        <div class="about-image-wrap reveal">
+          <div class="about-image-frame">
+            <div class="about-avatar">
+              <div class="avatar-initials">AD</div>
+            </div>
+            <div class="about-tag tag-1"><span class="tag-icon">⚡</span> Available for work</div>
+            <div class="about-tag tag-2"><span class="tag-icon">📍</span> Chennai, India</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label reveal">— 02 / Skills</div>
+      <h2 class="section-title reveal">Tools I work with.</h2>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title">Frontend</h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-name">HTML & CSS</span><div class="skill-bar"><div class="skill-fill" data-width="95"></div></div></div>
+            <div class="skill-item"><span class="skill-name">JavaScript</span><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
+            <div class="skill-item"><span class="skill-name">React</span><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Tailwind CSS</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title">Backend</h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-name">Node.js</span><div class="skill-bar"><div class="skill-fill" data-width="75"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Python</span><div class="skill-bar"><div class="skill-fill" data-width="70"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Express</span><div class="skill-bar"><div class="skill-fill" data-width="72"></div></div></div>
+            <div class="skill-item"><span class="skill-name">MongoDB</span><div class="skill-bar"><div class="skill-fill" data-width="68"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title">Tools & Other</h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-name">Git & GitHub</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Figma</span><div class="skill-bar"><div class="skill-fill" data-width="65"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Docker</span><div class="skill-bar"><div class="skill-fill" data-width="55"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Linux / CLI</span><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div></div>
+          </div>
+        </div>
+      </div>
+      <!-- Tech Tags -->
+      <div class="tech-tags reveal">
+        <span class="tech-tag">TypeScript</span><span class="tech-tag">Next.js</span><span class="tech-tag">PostgreSQL</span>
+        <span class="tech-tag">REST APIs</span><span class="tech-tag">GraphQL</span><span class="tech-tag">AWS</span>
+        <span class="tech-tag">Vercel</span><span class="tech-tag">Firebase</span><span class="tech-tag">Jest</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label reveal">— 03 / Projects</div>
+      <h2 class="section-title reveal">Things I've built.</h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal" data-index="01">
+          <div class="project-card-inner">
+            <div class="project-meta">
+              <span class="project-num">01</span>
+              <span class="project-type">Web App</span>
+            </div>
+            <h3 class="project-title">TaskFlow</h3>
+            <p class="project-desc">A minimal, keyboard-first task manager with local sync and dark mode. Built to replace cluttered productivity apps.</p>
+            <div class="project-stack">
+              <span>React</span><span>Node.js</span><span>MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo →</a>
+              <a href="#" class="project-link project-gh">GitHub</a>
+            </div>
+          </div>
+          <div class="project-card-accent"></div>
+        </div>
+
+        <div class="project-card reveal" data-index="02">
+          <div class="project-card-inner">
+            <div class="project-meta">
+              <span class="project-num">02</span>
+              <span class="project-type">CLI Tool</span>
+            </div>
+            <h3 class="project-title">DevSetup CLI</h3>
+            <p class="project-desc">A command-line tool that scaffolds new projects with your favourite stack in seconds. Supports 10+ templates.</p>
+            <div class="project-stack">
+              <span>Python</span><span>Click</span><span>Shell</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">PyPI →</a>
+              <a href="#" class="project-link project-gh">GitHub</a>
+            </div>
+          </div>
+          <div class="project-card-accent"></div>
+        </div>
+
+        <div class="project-card reveal featured" data-index="03">
+          <div class="project-badge">Featured</div>
+          <div class="project-card-inner">
+            <div class="project-meta">
+              <span class="project-num">03</span>
+              <span class="project-type">Full Stack</span>
+            </div>
+            <h3 class="project-title">Shopify Clone</h3>
+            <p class="project-desc">A fully functional e-commerce platform with auth, cart, payments via Stripe, and an admin dashboard. 100+ products supported.</p>
+            <div class="project-stack">
+              <span>Next.js</span><span>PostgreSQL</span><span>Stripe</span><span>Tailwind</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo →</a>
+              <a href="#" class="project-link project-gh">GitHub</a>
+            </div>
+          </div>
+          <div class="project-card-accent"></div>
+        </div>
+
+        <div class="project-card reveal" data-index="04">
+          <div class="project-card-inner">
+            <div class="project-meta">
+              <span class="project-num">04</span>
+              <span class="project-type">API</span>
+            </div>
+            <h3 class="project-title">WeatherAPI Wrapper</h3>
+            <p class="project-desc">A caching REST API wrapper for OpenWeatherMap with rate limiting, geolocation support, and Swagger docs.</p>
+            <div class="project-stack">
+              <span>Express</span><span>Redis</span><span>Node.js</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Docs →</a>
+              <a href="#" class="project-link project-gh">GitHub</a>
+            </div>
+          </div>
+          <div class="project-card-accent"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label reveal">— 04 / Contact</div>
+      <h2 class="section-title reveal">Let's work together.</h2>
+      <p class="contact-sub reveal">Have a project in mind, or just want to say hi? My inbox is always open.</p>
+      <form class="contact-form reveal" id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary" id="submit-btn">Send Message →</button>
+        <p class="form-status" id="form-status"></p>
+      </form>
+      <div class="contact-socials reveal">
+        <a href="https://github.com/" target="_blank" class="social-link">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" class="social-link">LinkedIn</a>
+        <a href="mailto:alex@example.com" class="social-link">Email</a>
+        <a href="https://twitter.com/" target="_blank" class="social-link">Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">AD<span class="dot">.</span></span>
+        <span class="footer-copy">Designed & built by Alex Dev · 2024</span>
+        <a href="#hero" class="footer-top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
